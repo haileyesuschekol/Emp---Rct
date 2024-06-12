@@ -4,10 +4,7 @@ function App() {
   const { id, name } = fData
   return (
     <>
-      <h1>
-        {id}, {name}
-      </h1>
-      <h1>Fetch</h1>
+      <h1>App</h1>
     </>
   )
 }

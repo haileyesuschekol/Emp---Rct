@@ -28,6 +28,8 @@ const App = () => {
         valueToAdd: 0,
       }
     }
+
+    return state
   }
 
   const [state, despatch] = useReducer(reducer, {

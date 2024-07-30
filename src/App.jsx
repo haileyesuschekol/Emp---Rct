@@ -1,5 +1,10 @@
+import ReduxApp from "./components/ReduxApp"
 const App = () => {
-  return <div></div>
+  return (
+    <div>
+      <ReduxApp />
+    </div>
+  )
 }
 
 export default App

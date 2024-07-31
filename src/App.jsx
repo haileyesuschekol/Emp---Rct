@@ -1,10 +1,10 @@
 // import ReduxApp from "./components/ReduxApp"
-import Rtk from "./components/Rtk"
+// import Rtk from "./components/Rtk"
 const App = () => {
   return (
     <div>
       {/* <ReduxApp /> */}
-      <Rtk />
+      {/* <Rtk /> */}
     </div>
   )
 }

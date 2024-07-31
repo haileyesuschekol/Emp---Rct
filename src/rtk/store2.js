@@ -19,9 +19,10 @@ const fileStore = configureStore({
   },
 })
 
-fileStore.dispatch(songSlice.actions.addSong("newsong"))
+// fileStore.dispatch(songSlice.actions.addSong("newsong"))
 
-const finalState = fileStore.getState()
-console.log(finalState)
+// const finalState = fileStore.getState()
+// console.log(finalState.songs)
 
 export { fileStore }
+export const { addSong } = songSlice.actions
